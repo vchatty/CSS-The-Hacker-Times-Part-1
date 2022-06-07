@@ -53,24 +53,48 @@ ul, li, a {
     width: 100%;
 }
 
-.container {
-    border-top: solid gray 1px;
-    margin: 5px
-}
-
 .article1 {
     display: inline-block;
-    width: 50%
+    width: 50%;
 }
 
+.container2 {
+    border-top: solid gray 1px;
+
+}
 .article2 {
     display: inline-block;
     width: 50%; 
-    float: left; 
+    float:left; 
+}
+
+.article3 {
+    display: inline-block;
+    margin: 1px;
+    width: 30%; 
+}
+
+.article4 {
+    display: inline-block;
+    width: 25%; 
+    padding: 10px;
+    margin: 8px; 
+}
+
+.article5 {
+    display: inline-block;
+    margin: 23.5px;
+    width: 30%; 
 }
 
 p {
     font-family: Source Sans Pro;
     font-size: 12px;
-    width: 90%;
+    color: gray;
 }
+
+.photo-three, .photo-four, .photo-five {
+    width: 200px; 
+    height: 100px;
+}
+
